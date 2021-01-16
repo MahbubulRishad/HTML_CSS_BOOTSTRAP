@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #faebd77d;
+}
+
+section{}
+.blog{
+    padding: 100px 0;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.col{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+article{
+    background: antiquewhite;
+    padding: 10px;
+	box-shadow:  -15px 15px 30px #c0b5b5, 
+             15px -15px 30px #fffbfb;
+    overflow: hidden;
+    transition-duration: .3s;        
+}
+
+.container:hover article{
+	box-shadow:  0 0 0 #c0b5b5, 
+             0 0 0 #fffbfb;
+     opacity: 0.6;        
+}
+
+.container:hover article:hover{
+	box-shadow:  -15px 15px 30px #c0b5b5, 
+             15px -15px 30px #fffbfb; 
+     opacity: 1;              
+}
+
+
+
+.padding{
+	padding: 10px;
+}
+
+article img{
+	max-width: 100%;
+	display: block;
+	height: 150px;
+	object-fit: cover;
+	width: 100%;
+}
+article h2 {
+    font-size: 15px;
+    color: #0d0c0cc4;
+    padding: 7px 7px;
+}
+article h2 strong{}
+article p {
+    font-size: 14px;
+    color: #532d2d;
+    padding: 0px 2px;
+}
+article a{}
+
+.readmore {
+    text-decoration: none;
+    color: #fb370b;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    border: 1px solid #9e9e9e85;
+    border-color: tan;
+    border-radius: 12px;
+    background: none;
+    margin-top: 4px;
+    transition-duration: .3s;
+}
+
+.readmore:hover{
+	color: #fff;
+	background: #333;
+}
