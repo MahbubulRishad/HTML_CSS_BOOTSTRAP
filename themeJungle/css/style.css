@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-first-section{}
+.logo{padding: 10px 10px;width: 290px;}
+.logo a{
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+}
+.logo img{
+    width: 100%;
+    margin: auto;
+}
+
+.fisrt-navbar{
+    margin: 5px 15px;
+    margin-top: 30px;
+}
+.fisrt-navbar ul{display: flex;flex-wrap: wrap;justify-content: flex-end;}
+.fisrt-navbar ul li{
+    list-style: none;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+.fisrt-navbar ul li a{
+    text-decoration: none;
+    color: #343A40;
+    padding: 5px 10px;
+}
+
+.fisrt-navbar ul li a:hover{
+    color: #0202027d;
+    /* background: #75d675;*/
+}
+
+.navbar {
+    padding-top: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    transition-duration: 0.3s;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+     width: 100%; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        color: #03a87c;
+}
+
+/********************************banner-section**************************************/
+
+.banner-section{}
+.banner-image-1{
+    padding: 15px 10px;
+}
+.banner-image-1 img{
+    width: 100%;
+    display: block;
+}
+
+.banner-heading{
+    padding: 15px 10px;
+}
+h3{
+    font-size: 22px;
+    padding: 5px 5px;
+    color: #4e4949;
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 2px 3px;
+}
+
+h3 a:hover{
+    color: #4e4949;
+}
+
+
+.banner-heading p{
+    padding: 5px 5px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.banner-heading p a{
+    text-decoration: none;
+    color: #333333de;
+    font-weight: 500;
+}
+
+h6{
+    padding: 10px 5px;
+    font-size: 14px;
+}
+h6 a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333333de;
+}
+
+.banner-box{}
+.banner-box img{}
+.banner-box-description{}
+
+
+/***********************************banner-section***********************************/
+.stories-categories{
+    background: #F1F3FC;
+}
+
+/***********************************travel-blog-section***********************************/
+.travel-blog-section{}
+.travel-heading{}
+
+h1{}
+.travel-heading p{}
+.travel-heading a{}
+
+.travel-blog-image{}
+.travel-blog-image img{}
+
+h3 span{
+    border-bottom: 2px solid #333;
+    width: 100%;
+}
+
+ol.list-featured {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+ol.list-featured li {
+    counter-increment: my-awesome-counter;
+    display: -webkit-box;
+   /* display: -ms-flexbox;*/
+    display: flex;
+    font-size: .85rem;
+    /*margin-bottom: .4rem;*/
+     list-style: none;
+}
+
+
+ol.list-featured li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: .5rem;
+    font-family: Arial;
+    opacity: .15;
+    line-height: 1;
+}
