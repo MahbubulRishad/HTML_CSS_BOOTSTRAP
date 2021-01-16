@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="calculator">
+
+
+		<!-- input-option-start -->
+		<input type="text" id="result" readonly class="input">
+		<!-- input-option-end -->
+
+		<!-- button-start -->
+		
+			
+		<button type="button" onclick="one()">1 </button>
+		<button type="button" onclick="two()">2 </button>
+		<button type="button" onclick="three()">3 </button>
+		<button type="button" onclick="four()">4 </button>
+		<button type="button" onclick="five()">5 </button>
+		<button type="button" onclick="six()">6 </button>
+		<button type="button" onclick="seven()">7 </button>
+		<button type="button" onclick="eight()">8 </button>
+		<button type="button" onclick="nine()">9 </button>
+		<button type="button" onclick="zero()">0 </button>
+		<button type="button" onclick="add()">+ </button>
+		<button type="button" onclick="sub()">- </button>
+		<button type="button" onclick="mul()">* </button>
+		<button type="button" onclick="divide()">/ </button>
+		<button type="button" onclick="ac()">C </button>
+		<button type="button" onclick="equal()">= </button>
+
+
+
+		
+
+		<!-- button-start -->
+
+
+
+	</div>
+
+	<!-- javascript -->
+
+
+	<script>	
+		function one(){
+			document.getElementById('result').value += 1;
+		}	
+		function two(){
+			document.getElementById('result').value += 2;
+		}	
+		function three(){
+			document.getElementById('result').value += 3;
+		}	
+		function four(){
+			document.getElementById('result').value += 4;
+		}	
+		function five(){
+			document.getElementById('result').value += 5;
+		}	
+		function six(){
+			document.getElementById('result').value += 6;
+		}	
+		function seven(){
+			document.getElementById('result').value += 7;
+		}	
+		function eight(){
+			document.getElementById('result').value += 8;
+		}	
+		function nine(){
+			document.getElementById('result').value += 9;
+		}	
+		function zero(){
+			document.getElementById('result').value += 0;
+		}	
+		function add(){
+			document.getElementById('result').value += "+";
+		}	
+		function sub(){
+			document.getElementById('result').value += "-";
+		}	
+		function mul(){
+			document.getElementById('result').value += "*";
+		}	
+		function divide(){
+			document.getElementById('result').value += "/";
+		}	
+		function ac(){
+			document.getElementById('result').value = "";
+		}	
+		function equal(){
+			document.getElementById('result').value = eval(document.getElementById('result').value);
+		}
+
+	</script>
+	<!-- javascript -->
+
+
+</body>
+</html>
