@@ -1,0 +1,139 @@
+img{
+	max-width: 100%;
+}
+
+.first-section{
+	    margin-top: 20px;
+}
+.headline{
+    padding: 25px;
+    justify-content: flex-end;
+} 
+.headline h1{
+    max-width: 333px;
+    font-size: 30px;
+}
+.headline a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.headline p {
+    font-size: 16px;
+    max-width: 405px;
+}  
+
+.second-section{
+	background: #F1F4FB;
+	
+}
+
+.section2-color{
+}
+
+.logos{}
+.logos ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.logos ul li {
+	list-style: none;
+	text-align: center;
+}
+.logos ul li a{
+	text-decoration: none;
+}
+
+/*.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}*/
+
+/*.col-clogo{
+	width: 20%;
+	flex: 0 0 auto;
+	margin: auto;
+}*/
+
+.third-section{}
+.what-problem{}
+
+.what-problem h2{}
+.what-problem p {
+	max-width: 467px;
+    margin: auto;
+}
+
+.product-description{
+	margin-top: 70px;
+}
+
+.product-image{
+	margin: auto;
+}
+
+
+.product-achieved-image{
+	box-shadow: 1px 1px 1px 2px #00000030;
+	padding: 50px;
+}
+
+
+.sixth-section{
+	background: #237BE5;
+}
+
+.headline {
+    padding: 70px;
+    margin: auto;
+}
+.headline h1{}
+.headline p{}
+
+.button{
+	color: #237BE5;
+	background: #fff;
+	text-decoration: none;
+	padding: 10px 8px;
+	border-radius: 5px;
+}
+.button1{
+	color: #fff;
+	/*background: #fff;*/
+	text-decoration: none;
+	padding: 10px 8px;
+	border-radius: 5px;
+
+}
+
+.offer{}
+.offer h2{
+    font-size: 35px;
+    max-width: 394px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+}
+.offer p{
+    padding: 25px;
+    margin: auto;
+    max-width: 394px;
+}
+
+footer{
+	background: #F1F4FB;
+}
+.social{}
+.social ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.social ul li{
+	list-style: none;
+	text-align: center;
+}
+.social ul li a {
+	text-decoration: none;
+}
